@@ -9,13 +9,13 @@ import MuiCheckBox from './Components/MuiCheckBox'
 import MuiSwitch from './Components/MuiSwitch'
 import MuiRating from './Components/MuiRating'
 import MuiAutocomplete from './Components/MuiAutocomplete'
-import MuiLayoutBox from './Layouts/MuiLayoutBox'
-import MuiLayoutStack from './Layouts/MuiLayoutStack'
-import MuiLayoutGrid from './Layouts/MuiLayoutGrid'
-import MuiLayoutPaper from './Layouts/MuiLayoutPaper'
-import MuiCard from './Layouts/MuiCard'
-import MuiAccordion from './Layouts/MuiAccordion'
-import MuiImageList from './Layouts/MuiImageList'
+import MuiLayoutBox from './LayoutsComponents/MuiLayoutBox'
+import MuiLayoutStack from './LayoutsComponents/MuiLayoutStack'
+import MuiLayoutGrid from './LayoutsComponents/MuiLayoutGrid'
+import MuiLayoutPaper from './LayoutsComponents/MuiLayoutPaper'
+import MuiCard from './LayoutsComponents/MuiCard'
+import MuiAccordion from './LayoutsComponents/MuiAccordion'
+import MuiImageList from './LayoutsComponents/MuiImageList'
 import { MuiNavbar } from './NavigationComponents/MuiNavbar'
 import { MuiMenu } from './NavigationComponents/MuiMenu'
 import { MuiLink } from './NavigationComponents/MuiLink'
@@ -23,6 +23,12 @@ import { MuiBreadcrumbs } from './NavigationComponents/MuiBreadcrumbs'
 import { MuiDrawer } from './NavigationComponents/MuiDrawer'
 import { MuiSpeedDial } from './NavigationComponents/MuiSpeedDial'
 import { MuiBottomNavigation } from './NavigationComponents/MuiBottomNavigation'
+import { MuiAvatar } from './DataDisplayComponents/MuiAvatar'
+import { MuiBadge } from './DataDisplayComponents/MuiBadge'
+import { MuiList } from './DataDisplayComponents/MuiList'
+import { MuiChip } from './DataDisplayComponents/MuiChip'
+import { MuiChip2 } from './DataDisplayComponents/MuiChip2'
+import { MuiTooltip } from './DataDisplayComponents/MuiTooltip'
 
 
 function App () {
@@ -51,7 +57,13 @@ function App () {
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
-      <MuiBottomNavigation />
+      {/* <MuiBottomNavigation /> */}
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
+      {/* <MuiChip /> */}
+      {/* <MuiChip2 /> */}
+      <MuiTooltip />
     </div>
   )
 }
