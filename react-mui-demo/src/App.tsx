@@ -29,6 +29,8 @@ import { MuiList } from './DataDisplayComponents/MuiList'
 import { MuiChip } from './DataDisplayComponents/MuiChip'
 import { MuiChip2 } from './DataDisplayComponents/MuiChip2'
 import { MuiTooltip } from './DataDisplayComponents/MuiTooltip'
+import { MuiTable } from './DataDisplayComponents/MuiTable'
+import { MuiAlert } from './FeedbackComponents/MuiAlert'
 
 
 function App () {
@@ -63,7 +65,9 @@ function App () {
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
       {/* <MuiChip2 /> */}
-      <MuiTooltip />
+      {/* <MuiTooltip /> */}
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   )
 }
