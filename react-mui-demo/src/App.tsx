@@ -31,6 +31,9 @@ import { MuiChip2 } from './DataDisplayComponents/MuiChip2'
 import { MuiTooltip } from './DataDisplayComponents/MuiTooltip'
 import { MuiTable } from './DataDisplayComponents/MuiTable'
 import { MuiAlert } from './FeedbackComponents/MuiAlert'
+import { MuiSnackbar } from './FeedbackComponents/MuiSnackbar'
+import { MuiDialog } from './FeedbackComponents/MuiDialog'
+import { MuiProgress } from './ProgressRelatedComponents/MuiProgress'
 
 
 function App () {
@@ -67,7 +70,10 @@ function App () {
       {/* <MuiChip2 /> */}
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
+      {/* <MuiSnackbar /> */}
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
   )
 }
