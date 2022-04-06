@@ -44,6 +44,7 @@ import { MuiTimePicker } from './MaterialLabPackage/MuiTimePicker'
 import { MuiDateTimePicker } from './MaterialLabPackage/MuiDateTimePicker'
 import { MuiDateRangePicker } from './MaterialLabPackage/MuiDateRangePicker'
 import { MuiTabs } from './MaterialLabPackage/MuiTabs'
+import { MuiTimeline } from './MaterialLabPackage/MuiTimeline'
 
 function App () {
   return (
@@ -91,7 +92,8 @@ function App () {
         {/* <MuiTimePicker /> */}
         {/* <MuiDateTimePicker /> */}
         {/* <MuiDateRangePicker /> */}
-        <MuiTabs />
+        {/* <MuiTabs /> */}
+        <MuiTimeline />
       </div>
     </LocalizationProvider>
   )
